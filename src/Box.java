@@ -2,11 +2,11 @@ public class Box {
     double width;
     double height;
     double depth;
-    Box() {
+    Box(double w, double h, double d) {
         System.out.println("Constructor of the Object run");
-        width = 10;
-        height = 10;
-        depth = 10;
+        width = w;
+        height = h;
+        depth = d;
     }
     //method for the volume:
     double volume() {
